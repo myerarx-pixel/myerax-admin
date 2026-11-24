@@ -1,0 +1,10 @@
+{
+  "name": "myerax-admin",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "admin": "npm run dev --workspace=@myera/admin",
+    "shared:build": "npm run build --workspace=@myera/shared"
+  },
+  "engines": { "node": ">=20" }
+}
